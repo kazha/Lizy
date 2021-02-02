@@ -5,7 +5,7 @@
   </PropertyGroup>
 
   <PropertyGroup>
-    <BaseOutputPath>..\Lizzy.TerritorialDivisionService\bin\</BaseOutputPath>
+    <BaseOutputPath>..\Lizy.TerritorialDivisionService\bin\</BaseOutputPath>
   </PropertyGroup>
 
   <ItemGroup>
