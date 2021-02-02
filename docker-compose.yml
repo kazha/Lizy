@@ -1,0 +1,13 @@
+version: '3.4'
+
+services:
+  lizy.territorialdivisionservice:
+    image: ${DOCKER_REGISTRY-}lizyterritorialdivisionservice
+    build:
+      context: .
+      dockerfile: Lizy.TerritorialDivisionService/Dockerfile
+  db:
+    image: "mcr.microsoft.com/mssql/server"
+    environment:
+        SA_PASSWORD: "Pass@Word"
+        ACCEPT_EULA: "Y"
